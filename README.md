@@ -1,5 +1,15 @@
 # **.carmate** - a car service log application designed to store information about owned cars, their history, and upcoming service reminders :car:
 
+## Index of Contents
+
+- [Introduction](#introduction)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#workflow)
+- [Status](#our-team)
+- [Our Team](#our-team)
+- [License](#license)
+
 ## Introduction
 
 Carmate is an application for easily storing and managing information on your cars. With it you can easily keep track of your vehicles' service history, add photos, receive notifications of upcoming services and have access to a list of the workshops you use. Below are the main features of the app:
@@ -28,18 +38,8 @@ These are just a few of the features that the Carmate app offers. With it, you w
 
 We hope Carmate will make it easier for you to manage and look after your cars!
 
-![Nazwa alternatywna](src\images\prtsc-home.png)
-![Nazwa alternatywna](src\images\prtsc-userpage.png)
-
-## Index of Contents
-
-- [Introduction](#introduction)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Usage](#workflow)
-- [Status](#our-team)
-- [Our Team](#our-team)
-- [License](#license)
+![HomePage screenshot](src/images/prtsc-home.png)
+![UserPage screenshot](src/images/prtsc-userpage.png)
 
 ## Technologies
 
@@ -78,8 +78,8 @@ On a daily basis, we communicated via Slack and shared new ideas.
 
 Running the app in the development mode:
 
-1. Clone the repository: `git clone https://github.com/infoshareacademy/jfdzr10-team-reactors`
-2. Navigate to the project directory: `cd jfdzr10-team-reactors`
+1. Clone the repository: `git clone https://github.com/aldona-krukowska/Carmate-app`
+2. Navigate to the project directory: `cd Carmate-app`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm start`
 5. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -102,10 +102,10 @@ The project is currently under development. Our current goals include code refac
 
 The application was created by the collaboration of frontend developers:
 
-:grinning: [Agata Misiak](https://github.com/)  
-:grin: [Aldona Krukowska](https://github.com/)  
-:sunglasses: [Mariusz Przybylski](https://github.com/)  
-:wink: [Mateusz Mudry](https://github.com/)
+:grinning: [Agata Misiak](https://github.com/Fermatka)  
+:grin: [Aldona Krukowska](https://github.com/aldona-krukowska)  
+:sunglasses: [Mariusz Przybylski](https://github.com/PrzybylskiMariusz)  
+:wink: [Mateusz Mudry](https://github.com/mateusz-mudry)
 
 ## License
 
