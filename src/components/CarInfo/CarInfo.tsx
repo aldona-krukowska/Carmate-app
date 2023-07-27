@@ -35,13 +35,8 @@ export const CarInfo = () => {
 
     return car
   }
-  const toggleDetails = () => {
-    if (!showDetails) {
-      setShowDetails(true)
-    } else {
-      setShowDetails(false)
-    }
-  }
+  // to toggle the boolean you can do 'not currentState', like:
+  const toggleDetails = () => setShowDetails(!showDetails)
 
   const handleUpdate = (event: React.FormEvent, docId: string) => {
     const docRef = doc(db, 'cars', docId)
@@ -75,10 +70,12 @@ export const CarInfo = () => {
               gap='0.4rem'
             >
               <Typography variant='Title' colored>
-                {selectedCar.enginePower ? selectedCar.enginePower : '-'}
+                {/* in JS you can do A OR B, when A is falsy (empty string, 0, null, undefined) B will be used.*/}
+                {/* just keep in mind that 0 as a number will be treated as a false value */}
+                {selectedCar.enginePower || '-'}
               </Typography>
               <Typography variant='Caption'>
-                {selectedCar.engineCapacity ? selectedCar.engineCapacity : 'brak danych'}
+                {selectedCar.engineCapacity || 'brak danych'}
               </Typography>
             </StyledBoxWrapper>
           </StyledBoxWrapper>
